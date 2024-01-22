@@ -19,7 +19,15 @@ body {
 }
 
 .box-month {
-  width: 100%;
+  width: calc(50% - 10px);
+}
+
+.box-note {
+  width: calc(50% - 10px);
+  background-color: #7e7e7e;
+  margin: 10px 0;
+  padding: 10px;
+  display: none;
 }
 
 .box-switch {
@@ -58,8 +66,8 @@ body {
 }
 
 .wrapper {
-  width: 50%;
-  background-color: #515151;
+  width: 90%;
+  background-color: #7e7e7e;
   box-shadow: 0px 5px 5px 5px rgba(234, 232, 232, 0.17);
   margin: 10px 0;
   padding: 10px;
@@ -124,7 +132,7 @@ body {
 .weekEnd {
   font-size: 20px;
   font-weight: bold;
-  color: rgb(189, 2, 2);
+  color: rgb(212, 56, 56);
 }
 
 .title-week-day {
@@ -149,7 +157,7 @@ body {
 }
 
 .notInMonth {
-  color: #888888;
+  color: #555454;
 }
 
 .days-number-text,
@@ -159,14 +167,21 @@ body {
   font-weight: bold;
 }
 
+.days-number-text:hover {
+  cursor: pointer;
+}
+
 .current-day {
-  color: rgb(220, 86, 86);
+  color: rgb(96, 175, 244);
   font-size: 18px;
-  border: rgb(220, 86, 86) 2px solid;
+  font-weight: bold;
+  border: rgb(96, 175, 244) 2px solid;
   padding: 5px;
   border-radius: 50%;
 }
 
 .week-end {
-  color: rgb(189, 2, 2);
+  color: rgb(212, 24, 24);
+  font-size: 20px;
+  font-weight: bold;
 }

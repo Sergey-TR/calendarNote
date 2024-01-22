@@ -58,6 +58,7 @@ function next() {
         :changeDate="date"
       />
     </div>
+    <div class="box-note"></div>
   </div>
 </template>
 
