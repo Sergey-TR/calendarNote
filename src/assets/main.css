@@ -59,19 +59,20 @@ body {
 
 .wrapper {
   width: 50%;
-  height: calc((100vh / 3) - 50px);
+  height: calc(100vh / 3);
   background-color: #515151;
   box-shadow: 0px 5px 5px 5px rgba(234, 232, 232, 0.17);
-  margin: 20px 0;
-  padding: 20px;
+  margin: 10px 0;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
+
 .title-year-month {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .title-year,
@@ -80,11 +81,12 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
 .title-week,
 .day-items {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .title-week-number,
@@ -103,29 +105,35 @@ body {
   padding: 5px;
   min-height: 20px;
 }
+
 .box-title-week-day {
   min-width: calc(100% - 50px);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
 .week-number {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
+
 .text {
   color: #fff;
 }
+
 .weekEnd {
   font-size: 20px;
   font-weight: bold;
   color: rgb(189, 2, 2);
 }
+
 .title-week-day {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .days {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -145,106 +153,11 @@ body {
   color: #888888;
 }
 
-/* .wrapper {
-  width: 50%;
-  height: calc((100vh/3) - 70px);
-  background-color: #515151;
-  box-shadow: 0px 5px 5px 5px rgba(234, 232, 232, 0.17);
-  margin: 20px 0;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.wrapper-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.wrapper-number {
-  display: flex;
-}
-
-.week {
-  margin-right: 40px;
-}
-
-.week-title {
-  margin-bottom: 10px;
-} */
-
-/* .week-number {
-  display: flex;
-  flex-direction: column;
-} */
-
-/* .days {
-  min-width: calc(100% - 50px);
-} */
-
-/* .days-title {
-  margin-bottom: 10px;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-}
-
-.days-wrap {
-  min-width: calc(100% - 50px);
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-}
-
-.text {
-  color: #edeaea;
-} */
-
-/* .year-text {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.month-text {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.week-title-text {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.weekEnd {
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(189, 2, 2);
-}
-
-.week-number-text {
-  font-size: 16px;
-  padding: 0 10px 16px 10px;
-  text-align: center;
-} */
-
-/* .days-title-text {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.days-number {
-  color: #fff;
-  padding: 0 10px 10px 0px;
-} */
-
 .days-number-text,
 .current-day {
   color: inherit;
   font-size: 20px;
   font-weight: bold;
-
-
 }
 
 .current-day {
@@ -258,7 +171,3 @@ body {
 .week-end {
   color: rgb(189, 2, 2);
 }
-
-/* .notInMonth {
-  color: #888888;
-} */

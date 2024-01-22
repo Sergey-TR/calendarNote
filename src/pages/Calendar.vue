@@ -62,48 +62,5 @@ function next() {
 </template>
 
 <style scoped>
-@import "../assets/main.css"; /* .box {
-  width: 100%;
-  display: flex;
-  padding: 10px;
-}
-
-.box-month {
-  width: 100%;
-}
-
-.box-switch {
-  margin: 0 20px;
-  padding: 50px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 150px;
-}
-
-.switcher {
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 100px;
-  height: 40px;
-  border: 2px solid #fff;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #141414;
-}
-
-.switcher:hover {
-  cursor: pointer;
-  opacity: 0.5;
-}
-
-.switcher:active {
-  width: 95px;
-  height: 35px;
-} */
+@import "../assets/main.css";
 </style>
