@@ -1,4 +1,3 @@
-import { reactive } from "vue";
 import { getDaysOfMonth, getFirstWeekday, getLastDay, getLastDayIndex, getPrevMonthLastDay, getNextDays } from "./index";
 
 export const getAllDaysMonth = (day) => {

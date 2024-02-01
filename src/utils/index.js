@@ -64,6 +64,7 @@ export const getWeekNumber = (date) => {
 }
 
 export const getSunday = (date) => {
+  console.log(date)
   const sunday = []
   date.forEach(element => {
     if(element.getDay() === 0) {

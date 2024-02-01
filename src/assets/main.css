@@ -148,7 +148,7 @@ body {
 }
 
 .day-item {
-  color: #fff;
+
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -156,13 +156,18 @@ body {
   padding: 5px;
 }
 
-.notInMonth {
+.notInMonth .current-day {
+  color: #555454;
+  border: none;
+}
+
+.notInMonth .days-number-text {
   color: #555454;
 }
 
 .days-number-text,
 .current-day {
-  color: inherit;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
 }
@@ -179,6 +184,8 @@ body {
   padding: 5px;
   border-radius: 50%;
 }
+
+
 
 .week-end {
   color: rgb(212, 24, 24);

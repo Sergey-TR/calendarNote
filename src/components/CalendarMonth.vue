@@ -59,7 +59,7 @@ const props = defineProps({
               notInMonth: day.getMonth() != props.currentMonth.getMonth(),
             }"
           >
-            <CalendarDays :data="day" />
+            <CalendarDays :data="day" :not-in-month="`notInMonth`" />
           </div>
         </div>
       </div>

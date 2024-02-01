@@ -8,6 +8,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  notInMonth: {
+    type: String,
+    default: "notInMonth",
+  },
 });
 
 const isCurrentDay = computed(() => getISO(new Date()) === getISO(props.data));
